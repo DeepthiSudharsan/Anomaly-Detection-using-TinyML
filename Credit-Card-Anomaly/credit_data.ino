@@ -66,11 +66,11 @@ const uint8_t y_test[5][1] = {0, 0, 0, 0, 0};
 
 void setup() {
     Serial.begin(115200);
-    best_model.begin(credit_model);
+    tflite_model.begin(credit_model);
 }
 
 void loop() {
-    for (uint8_t i = 0; i < 10; i++) {
+    for (uint8_t i = 0; i < 6; i++) {
         Serial.print("Sample #");
         Serial.print(i + 1);
         Serial.print(": ");
