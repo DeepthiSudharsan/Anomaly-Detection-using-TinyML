@@ -4,7 +4,7 @@
 
 The project has been divided into two parts (based on dataset). First part is anomaly detection on a credit card fraud dataset using tinyML and the other is Network Anomaly detection using tinyML. Two folders have been created for the same with further description about what is being done. 
 
-For easy deployment of tensorflowLite for mmicrocontroller model to Arduino, [EloquentTinyML](https://github.com/eloquentarduino/EloquentTinyML) was used. 
+For easy deployment of tensorflowLite for microcontroller model to Arduino, [EloquentTinyML](https://github.com/eloquentarduino/EloquentTinyML) was used. 
 
 ## REFERENCES
 
